@@ -1,5 +1,0 @@
-Testfile
-
-$Revision: $
-$ID: $
-$HEADER: $
