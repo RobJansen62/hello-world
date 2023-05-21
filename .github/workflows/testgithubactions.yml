@@ -9,6 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: python ./github/workflows/hello_world.py
+      run: python ./github/workflows/hello_world.py
   
  
