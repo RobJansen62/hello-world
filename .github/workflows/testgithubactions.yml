@@ -8,9 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Run the build Python script
-	run : python ./github/workflows/testgithubactions.py
+	run: python ./github/workflows/testgithubactions.py
   
  
