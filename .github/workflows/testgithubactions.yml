@@ -1,0 +1,16 @@
+name: 'Test GitHubActions'
+
+on:
+   push:
+    branches:
+      - main
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+  steps:
+ 	- name: Run the build Python script
+	  run : python ./github/workflows/testgithubactions.py
+  
+ 
